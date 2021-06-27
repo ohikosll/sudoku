@@ -9,7 +9,7 @@ Helper::Helper(QObject *parent) : QObject(parent)
 
 QVector<int> Helper::newGame()
 {
-    // Перетусовывает поле
+    // Перетасовывает поле
     QRandomGenerator g;
     currentState = filledArea;
     for (int i = 0; i < rand() % 15; i++){
