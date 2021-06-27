@@ -24,7 +24,7 @@ GridLayout {
         id: cells
         model: 81
         Cell {
-            // Сигнал о победе, передабщийся в main.qml
+            // Сигнал о победе, передающийся в main.qml
             onWinDetected: {
                 win()
                 winned = true
